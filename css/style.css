@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: auto;
+  width: 100%;
+  background-color: hsl(240, 100%, 98%);
+  font-family: "Open Sans", sans-serif;
+}
+
+.main-body {
+  padding: 5%;
+}
+
+/* Headings, Call-to-actions, Header Navigation */
+.head,
+a {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Nav starts here */
+
+.navbar {
+  height: 32px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-list {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.nav-list a {
+  padding-left: 12px;
+  color: hsl(243, 87%, 12%);
+  text-decoration: none;
+}
+
+/* Nav ends here */
+
+/* Banner */
+
+.banner {
+  height: auto;
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.banner img {
+  height: 100%;
+  width: 100%;
+}
+
+.banner-head {
+  line-height: 2.3rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: hsl(243, 87%, 12%);
+}
+
+.banner-text {
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: hsl(243, 87%, 12%);
+}
+
+.banner-input {
+  width: 100%;
+  height: 50px;
+  padding: 0.1rem 0 0 1.3rem;
+  border: 1px solid hsl(243, 87%, 12%);
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background-color: hsl(224, 93%, 58%);
+  border-radius: 5px;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: hsl(238, 64%, 80%);
+}
+
+.btn-primary {
+  margin-bottom: 100px;
+}
+
+.banner-text-2 {
+  text-align: left;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+  color: hsl(238, 22%, 44%);
+}
+
+.fylo-work a {
+  text-align: center;
+  color: hsl(170, 45%, 43%);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+hr {
+  width: 50%;
+  margin: 10px 25% 40px;
+  border-width: 0.5px;
+  border-color: hsl(170, 45%, 43%);
+}
+
+.comment {
+  width: 100%;
+  height: auto;
+  margin: 20px 0 80px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px hsl(0, 0%, 75%);
+  color: hsl(243, 87%, 12%);
+}
+
+.main-comment {
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+  line-height: 1.5rem;
+}
+
+.avatar-box {
+  display: flex;
+}
+
+.avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.avatar-text {
+  margin-top: 8px;
+}
+
+.avatar-text p {
+  font-size: 0.5rem;
+}
+
+.get-access {
+  height: auto;
+  padding: 50px 35px;
+  background-color: hsl(238, 22%, 44%);
+  text-align: center;
+  color: #fff;
+}
+
+.get-access h2 {
+  padding-bottom: 15px;
+}
+
+.get-access p {
+  font-size: 0.9rem;
+}
+
+.get-input {
+  width: 80%;
+  height: 50px;
+  border-radius: 5px;
+  margin: 30px 10% 10px;
+  padding: 0.1rem 0 0 0.5rem;
+}
+
+.btn-secondary {
+  width: 80%;
+}
+
+.footer {
+  padding: 35px 10% 20px;
+  color: #fff;
+  background-color: hsl(243, 87%, 12%);
+}
+
+.phone,
+.mail {
+  display: flex;
+  margin: 20px 0;
+}
+
+.phone img,
+.mail img {
+  height: 20px;
+  margin-right: 20px;
+}
+
+.foot-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.foot-link ul {
+  list-style-type: none;
+  margin: 10px 0 10px;
+}
+
+.foot-link ul li {
+  margin: 10px 0;
+}
+
+.foot-link ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social-con {
+  height: 30px;
+  width: 30px;
+  margin: 0 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.all-foot-links a:hover,
+.social-con:hover {
+  color: hsl(224, 93%, 58%);
+  cursor: pointer;
+  transition: 0.5s ease-in;
+}
+
+@media screen and (min-width: 800px) {
+  .main-body {
+    padding: 30px 50px;
+  }
+
+  .nav-list a {
+    padding-left: 3rem;
+  }
+
+  .main-banner {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 5rem;
+  }
+
+  .banner {
+    height: 400px;
+    flex: 1;
+    margin-bottom: 50px;
+  }
+
+  .banner-words {
+    flex: 1;
+  }
+
+  .btn-space {
+    display: flex;
+  }
+
+  .banner-input {
+    width: 125%;
+    margin-right: 10px;
+  }
+
+  .second-banner {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .banner-word-2 {
+    flex: 1;
+  }
+
+  .fylo-work a {
+    text-align: left;
+  }
+
+  hr {
+    width: 165px;
+    margin: 10px 0 40px;
+  }
+
+  .comment {
+    width: 300px;
+  }
+
+  .get-access {
+    display: flex;
+    padding: 50px 50px;
+    text-align: left;
+  }
+
+  .texts {
+    width: 10px;
+    flex: 1;
+    margin: 0 40px 0 0;
+    padding-right: 80px;
+    text-align: left;
+  }
+
+  .input-button {
+    flex: 1;
+  }
+
+  .footer {
+    padding: 30px 50px;
+  }
+
+  .all-foot-links {
+    display: flex;
+  }
+
+  .foot-link {
+    flex: 1;
+  }
+
+  .foot-links {
+    flex: 1;
+  }
+
+  .get-me {
+    flex: 1;
+  }
+
+  .social {
+    justify-content: left;
+    flex: 1;
+    margin-top: 20px;
+  }
+
+  .btn-secondary {
+    width: 200px;
+    margin-left: 10%;
+  }
+}
